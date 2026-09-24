@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paintable_blocks:block/concrete_paneled_smooth_stone"
+    },
+    "facing=east": {
+      "model": "paintable_blocks:block/concrete_paneled_smooth_stone",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paintable_blocks:block/concrete_paneled_smooth_stone",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paintable_blocks:block/concrete_paneled_smooth_stone",
+      "y": 270
+    }
+  }
+}

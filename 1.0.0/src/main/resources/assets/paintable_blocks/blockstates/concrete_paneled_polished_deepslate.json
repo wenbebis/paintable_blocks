@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paintable_blocks:block/concrete_paneled_polished_deepslate"
+    },
+    "facing=east": {
+      "model": "paintable_blocks:block/concrete_paneled_polished_deepslate",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paintable_blocks:block/concrete_paneled_polished_deepslate",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paintable_blocks:block/concrete_paneled_polished_deepslate",
+      "y": 270
+    }
+  }
+}

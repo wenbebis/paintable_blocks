@@ -1,0 +1,8 @@
+{
+  "parent": "paintable_blocks:custom/paintablewoolnew",
+  "textures": {
+    "all": "minecraft:block/white_concrete",
+    "particle": "minecraft:block/polished_deepslate"
+  },
+  "render_type": "solid"
+}

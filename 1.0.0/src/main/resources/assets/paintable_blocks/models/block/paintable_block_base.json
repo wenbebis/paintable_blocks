@@ -1,0 +1,8 @@
+{
+  "parent": "paintable_blocks:custom/paintablewoolnew",
+  "textures": {
+    "all": "minecraft:block/debug",
+    "particle": "minecraft:block/debug2"
+  },
+  "render_type": "solid"
+}

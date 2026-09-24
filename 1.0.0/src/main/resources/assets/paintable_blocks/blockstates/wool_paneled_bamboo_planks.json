@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "paintable_blocks:block/wool_paneled_bamboo_planks"
+    },
+    "facing=east": {
+      "model": "paintable_blocks:block/wool_paneled_bamboo_planks",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "paintable_blocks:block/wool_paneled_bamboo_planks",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "paintable_blocks:block/wool_paneled_bamboo_planks",
+      "y": 270
+    }
+  }
+}
