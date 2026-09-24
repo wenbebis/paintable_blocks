@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "paintable",
+  "category": "building",
+  "ingredients": [
+    "paintable_blocks:wool_panels",
+    "minecraft:pale_oak_planks"
+  ],
+  "result": {
+    "id": "paintable_blocks:wool_paneled_pale_oak_planks",
+    "count": 1
+  }
+}

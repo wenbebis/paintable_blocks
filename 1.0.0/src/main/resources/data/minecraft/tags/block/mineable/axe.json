@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "paintable_blocks:wool_paneled_warped_planks",
+    "paintable_blocks:wool_paneled_oak_planks",
+    "paintable_blocks:wool_paneled_birch_planks",
+    "paintable_blocks:wool_paneled_cherry_planks",
+    "paintable_blocks:wool_paneled_jungle_planks",
+    "paintable_blocks:wool_paneled_mangrove_planks",
+    "paintable_blocks:wool_paneled_bamboo_planks",
+    "paintable_blocks:wool_paneled_crimson_planks",
+    "paintable_blocks:wool_paneled_dark_oak_planks",
+    "paintable_blocks:wool_paneled_acacia_planks",
+    "paintable_blocks:wool_paneled_pale_oak_planks",
+    "paintable_blocks:wool_paneled_spruce_planks"
+  ]
+}

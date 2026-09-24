@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "paintable_blocks:concrete_paneled_polished_deepslate",
+    "paintable_blocks:concrete_paneled_smooth_stone",
+    "paintable_blocks:concrete_paneled_polished_diorite",
+    "paintable_blocks:concrete_paneled_smooth_quartz",
+    "paintable_blocks:concrete_paneled_polished_tuff",
+    "paintable_blocks:concrete_paneled_polished_andesite",
+    "paintable_blocks:concrete_paneled_polished_blackstone"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "paintable_blocks:blocks/wool_paneled_crimson_planks",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "paintable_blocks:wool_paneled_crimson_planks"
+        }
+      ]
+    }
+  ]
+}

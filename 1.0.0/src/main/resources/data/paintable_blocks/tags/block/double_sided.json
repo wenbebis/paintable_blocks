@@ -1,0 +1,25 @@
+{
+  "replace": false,
+  "values": [
+    "paintable_blocks:concrete_paneled_polished_deepslate",
+    "paintable_blocks:wool_paneled_warped_planks",
+    "paintable_blocks:wool_paneled_oak_planks",
+    "paintable_blocks:wool_paneled_birch_planks",
+    "paintable_blocks:concrete_paneled_smooth_stone",
+    "paintable_blocks:wool_paneled_jungle_planks",
+    "paintable_blocks:wool_paneled_mangrove_planks",
+    "paintable_blocks:wool_paneled_bamboo_planks",
+    "paintable_blocks:wool_paneled_dark_oak_planks",
+    "paintable_blocks:concrete_paneled_polished_diorite",
+    "paintable_blocks:concrete_paneled_polished_tuff",
+    "paintable_blocks:wool_paneled_acacia_planks",
+    "paintable_blocks:wool_paneled_pale_oak_planks",
+    "paintable_blocks:concrete_paneled_polished_blackstone",
+    "paintable_blocks:wool_paneled_spruce_planks",
+    "paintable_blocks:wool_paneled_cherry_planks",
+    "paintable_blocks:wool_paneled_crimson_planks",
+    "paintable_blocks:concrete_paneled_smooth_quartz",
+    "paintable_blocks:paintable_block_base",
+    "paintable_blocks:concrete_paneled_polished_andesite"
+  ]
+}

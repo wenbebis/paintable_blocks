@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "paintableconcrete",
+  "category": "building",
+  "ingredients": [
+    "paintable_blocks:concrete_panels",
+    "minecraft:polished_andesite"
+  ],
+  "result": {
+    "id": "paintable_blocks:concrete_paneled_polished_andesite",
+    "count": 1
+  }
+}

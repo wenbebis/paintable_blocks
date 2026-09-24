@@ -1,0 +1,49 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#paintable_blocks:stained_glass_pane",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:concrete_block",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:shulker",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:bed",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:stained_glass_block",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:concrete_powder",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:wool_block",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:terracotta_block",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:candle",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:glazed_terracotta",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:carpet",
+      "required": false
+    }
+  ]
+}

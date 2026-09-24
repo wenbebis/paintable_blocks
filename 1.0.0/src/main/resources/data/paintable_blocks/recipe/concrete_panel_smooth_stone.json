@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "paintableconcrete",
+  "category": "building",
+  "ingredients": [
+    "paintable_blocks:concrete_panels",
+    "minecraft:smooth_stone"
+  ],
+  "result": {
+    "id": "paintable_blocks:concrete_paneled_smooth_stone",
+    "count": 1
+  }
+}

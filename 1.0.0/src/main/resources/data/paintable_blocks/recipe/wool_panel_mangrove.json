@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "paintable",
+  "category": "building",
+  "ingredients": [
+    "paintable_blocks:wool_panels",
+    "minecraft:mangrove_planks"
+  ],
+  "result": {
+    "id": "paintable_blocks:wool_paneled_mangrove_planks",
+    "count": 1
+  }
+}

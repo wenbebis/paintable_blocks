@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "#paintable_blocks:double_sided",
+      "required": false
+    },
+    {
+      "id": "#paintable_blocks:single_sided",
+      "required": false
+    }
+  ]
+}

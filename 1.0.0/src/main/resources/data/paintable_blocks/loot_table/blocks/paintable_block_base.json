@@ -1,0 +1,4 @@
+{
+  "type": "minecraft:block",
+  "random_sequence": "paintable_blocks:blocks/paintable_block_base"
+}

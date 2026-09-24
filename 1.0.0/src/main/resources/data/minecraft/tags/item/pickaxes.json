@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "paintable_blocks:paint_roller",
+    "paintable_blocks:golden_paint_roller"
+  ]
+}

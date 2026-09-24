@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    " bb",
+    " c "
+  ],
+  "key": {
+    "a": "minecraft:white_wool",
+    "b": "minecraft:quartz",
+    "c": "minecraft:gold_ingot"
+  },
+  "result": {
+    "id": "paintable_blocks:golden_paint_roller",
+    "count": 1
+  }
+}
