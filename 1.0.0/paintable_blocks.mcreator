@@ -1,0 +1,1125 @@
+{
+  "mod_elements": [
+    {
+      "name": "PaintRoller",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paint_roller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/item/paint_roller.json",
+          "src/main/java/paintable_blocks/item/PaintRollerItem.java",
+          "src/main/resources/assets/paintable_blocks/items/paint_roller.json"
+        ]
+      }
+    },
+    {
+      "name": "RecipePaintRoller",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_paint_roller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/recipe_paint_roller.json",
+          "src/main/resources/data/paintable_blocks/recipe/paint_roller.json"
+        ]
+      }
+    },
+    {
+      "name": "PaintRollerRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paint_roller_rightclicked_on_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "direction",
+            "type": "direction"
+          },
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ],
+        "files": [
+          "src/main/java/paintable_blocks/procedures/PaintRollerRightclickedOnBlockProcedure.java"
+        ]
+      }
+    },
+    {
+      "name": "PaintableBlocksTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paintable_blocks_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "WoolPaneledOakPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/paintable_blocks/block/WoolPaneledOakPlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_oak_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_oak_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledSprucePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_spruce_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/paintable_blocks/block/WoolPaneledSprucePlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_spruce_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_spruce_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_spruce_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_spruce_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_spruce_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledBirchPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_birch_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_birch_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_birch_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_birch_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledBirchPlanksBlock.java",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_birch_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_birch_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledJunglePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_jungle_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_jungle_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_jungle_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_jungle_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledJunglePlanksBlock.java",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_jungle_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_jungle_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledAcaciaPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_acacia_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_acacia_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_acacia_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_acacia_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledAcaciaPlanksBlock.java",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_acacia_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_acacia_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledBlockBase",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "paintable_block_base",
+      "metadata": {
+        "files": [
+          "src/main/java/paintable_blocks/block/WoolPaneledBlockBaseBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/block/paintable_block_base.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/paintable_block_base.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/paintable_block_base.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledDarkOakPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_dark_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_dark_oak_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledDarkOakPlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_dark_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_dark_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_dark_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_dark_oak_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledMangrovePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_mangrove_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_mangrove_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledMangrovePlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_mangrove_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_mangrove_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_mangrove_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_mangrove_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledCherryPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_cherry_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_cherry_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_cherry_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_cherry_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledCherryPlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_cherry_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_cherry_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledPaleOakPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_pale_oak_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_pale_oak_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_pale_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_pale_oak_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_pale_oak_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledPaleOakPlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_pale_oak_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledBambooPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_bamboo_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_bamboo_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_bamboo_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledBambooPlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_bamboo_planks.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_bamboo_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_bamboo_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledCrimsonPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_crimson_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_crimson_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledCrimsonPlanksBlock.java",
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_crimson_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_crimson_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_crimson_planks.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_crimson_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPaneledWarpedPlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "wool_paneled_warped_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/blockstates/wool_paneled_warped_planks.json",
+          "src/main/java/paintable_blocks/block/WoolPaneledWarpedPlanksBlock.java",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/wool_paneled_warped_planks.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_paneled_warped_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/item/wool_paneled_warped_planks.json",
+          "src/main/resources/assets/paintable_blocks/models/block/wool_paneled_warped_planks.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledSmoothQuartz",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_smooth_quartz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_smooth_quartz.json",
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_smooth_quartz.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_smooth_quartz.json",
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_smooth_quartz.json",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_smooth_quartz.json",
+          "src/main/java/paintable_blocks/block/ConcretePaneledSmoothQuartzBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledPolishedDiorite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_polished_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_polished_diorite.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_polished_diorite.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_polished_diorite.json",
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_polished_diorite.json",
+          "src/main/java/paintable_blocks/block/ConcretePaneledPolishedDioriteBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_polished_diorite.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledSmoothStone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_smooth_stone",
+      "metadata": {
+        "files": [
+          "src/main/java/paintable_blocks/block/ConcretePaneledSmoothStoneBlock.java",
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_smooth_stone.json",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_smooth_stone.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_smooth_stone.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_smooth_stone.json",
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_smooth_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledPolishedAndesite",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_polished_andesite",
+      "metadata": {
+        "files": [
+          "src/main/java/paintable_blocks/block/ConcretePaneledPolishedAndesiteBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_polished_andesite.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_polished_andesite.json",
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_polished_andesite.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_polished_andesite.json",
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_polished_andesite.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledPolishedTuff",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_polished_tuff",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_polished_tuff.json",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_polished_tuff.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_polished_tuff.json",
+          "src/main/java/paintable_blocks/block/ConcretePaneledPolishedTuffBlock.java",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_polished_tuff.json",
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_polished_tuff.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledPolishedDeepslate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_polished_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_polished_deepslate.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_polished_deepslate.json",
+          "src/main/java/paintable_blocks/block/ConcretePaneledPolishedDeepslateBlock.java",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_polished_deepslate.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_polished_deepslate.json",
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_polished_deepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePaneledPolishedBlackstone",
+      "type": "block",
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "concrete_paneled_polished_blackstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/items/concrete_paneled_polished_blackstone.json",
+          "src/main/resources/assets/paintable_blocks/models/block/concrete_paneled_polished_blackstone.json",
+          "src/main/resources/assets/paintable_blocks/blockstates/concrete_paneled_polished_blackstone.json",
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_paneled_polished_blackstone.json",
+          "src/main/resources/data/paintable_blocks/loot_table/blocks/concrete_paneled_polished_blackstone.json",
+          "src/main/java/paintable_blocks/block/ConcretePaneledPolishedBlackstoneBlock.java"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelOak",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_oak.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_oak.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanels",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panels",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/item/wool_panels.json",
+          "src/main/resources/assets/paintable_blocks/items/wool_panels.json",
+          "src/main/java/paintable_blocks/item/WoolPanelsItem.java"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanels",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panels",
+      "metadata": {
+        "files": [
+          "src/main/java/paintable_blocks/item/ConcretePanelsItem.java",
+          "src/main/resources/assets/paintable_blocks/items/concrete_panels.json",
+          "src/main/resources/assets/paintable_blocks/models/item/concrete_panels.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanel",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel.json",
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelSpruce",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_spruce",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_spruce.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_spruce.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelBirch",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_birch",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_birch.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_birch.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelJungle",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_jungle",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_jungle.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_jungle.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelAcacia",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_acacia",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_acacia.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_acacia.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelDarkOak",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_dark_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_dark_oak.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_dark_oak.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelMangrove",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_mangrove",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_mangrove.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_mangrove.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelCherry",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_cherry",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_cherry.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_cherry.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelPaleOak",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_pale_oak",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_pale_oak.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_pale_oak.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelBamboo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_bamboo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_bamboo.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_bamboo.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelCrimson",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_crimson",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_crimson.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_crimson.json"
+        ]
+      }
+    },
+    {
+      "name": "WoolPanelWarped",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wool_panel_warped",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/wool_panel_warped.json",
+          "src/main/resources/data/paintable_blocks/recipe/wool_panel_warped.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelQuartz",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_quartz",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_quartz.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_quartz.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelDiorite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_diorite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_diorite.json",
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_diorite.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelSmoothStone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_smooth_stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_smooth_stone.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_smooth_stone.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelAndesite",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_andesite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_andesite.json",
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_andesite.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelTuff",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_tuff",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_tuff.json",
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_tuff.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelDeepslate",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_deepslate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_deepslate.json",
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_deepslate.json"
+        ]
+      }
+    },
+    {
+      "name": "ConcretePanelBlackstone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "concrete_panel_blackstone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/recipe/concrete_panel_blackstone.json",
+          "src/main/resources/data/paintable_blocks/advancement/recipes/concrete_panel_blackstone.json"
+        ]
+      }
+    },
+    {
+      "name": "GoldenPaintRoller",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_paint_roller",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/paintable_blocks/models/item/golden_paint_roller.json",
+          "src/main/resources/assets/paintable_blocks/items/golden_paint_roller.json",
+          "src/main/java/paintable_blocks/item/GoldenPaintRollerItem.java"
+        ]
+      }
+    },
+    {
+      "name": "RecipeGoldenPaintRoller",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "recipe_golden_paint_roller",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/paintable_blocks/advancement/recipes/recipe_golden_paint_roller.json",
+          "src/main/resources/data/paintable_blocks/recipe/recipe_golden_paint_roller.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:GoldenPaintRoller",
+      "~CUSTOM:PaintRoller"
+    ],
+    "BLOCKS:mod:double_sided": [
+      "CUSTOM:PaintableWool",
+      "CUSTOM:WoolPaneledOakPlanks",
+      "CUSTOM:WoolPaneledSprucePlanks",
+      "CUSTOM:WoolPaneledBirchPlanks",
+      "CUSTOM:WoolPaneledJunglePlanks",
+      "CUSTOM:WoolPaneledAcaciaPlanks",
+      "CUSTOM:WoolPaneledBlockBase",
+      "CUSTOM:WoolPaneledDarkOakPlanks",
+      "CUSTOM:WoolPaneledMangrovePlanks",
+      "CUSTOM:WoolPaneledCherryPlanks",
+      "CUSTOM:WoolPaneledPaleOakPlanks",
+      "CUSTOM:WoolPaneledBambooPlanks",
+      "CUSTOM:WoolPaneledCrimsonPlanks",
+      "CUSTOM:WoolPaneledWarpedPlanks",
+      "CUSTOM:ConcretePaneledSmoothQuartz",
+      "CUSTOM:ConcretePaneledPolishedDiorite",
+      "CUSTOM:ConcretePaneledSmoothStone",
+      "CUSTOM:ConcretePaneledPolishedAndesite",
+      "CUSTOM:ConcretePaneledPolishedTuff",
+      "CUSTOM:ConcretePaneledPolishedDeepslate",
+      "CUSTOM:ConcretePaneledPolishedBlackstone"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "CUSTOM:ConcretePaneledSmoothQuartz",
+      "CUSTOM:ConcretePaneledPolishedDiorite",
+      "CUSTOM:ConcretePaneledSmoothStone",
+      "CUSTOM:ConcretePaneledPolishedAndesite",
+      "CUSTOM:ConcretePaneledPolishedTuff",
+      "CUSTOM:ConcretePaneledPolishedDeepslate",
+      "CUSTOM:ConcretePaneledPolishedBlackstone"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "CUSTOM:WoolPaneledOakPlanks",
+      "CUSTOM:WoolPaneledSprucePlanks",
+      "CUSTOM:WoolPaneledBirchPlanks",
+      "CUSTOM:WoolPaneledJunglePlanks",
+      "CUSTOM:WoolPaneledAcaciaPlanks",
+      "CUSTOM:WoolPaneledDarkOakPlanks",
+      "CUSTOM:WoolPaneledMangrovePlanks",
+      "CUSTOM:WoolPaneledCherryPlanks",
+      "CUSTOM:WoolPaneledPaleOakPlanks",
+      "CUSTOM:WoolPaneledBambooPlanks",
+      "CUSTOM:WoolPaneledCrimsonPlanks",
+      "CUSTOM:WoolPaneledWarpedPlanks"
+    ],
+    "BLOCKS:mod:wool_block": [
+      "Blocks.WOOL#0",
+      "Blocks.WOOL#1",
+      "Blocks.WOOL#2",
+      "Blocks.WOOL#3",
+      "Blocks.WOOL#4",
+      "Blocks.WOOL#5",
+      "Blocks.WOOL#6",
+      "Blocks.WOOL#7",
+      "Blocks.WOOL#8",
+      "Blocks.WOOL#9",
+      "Blocks.WOOL#10",
+      "Blocks.WOOL#11",
+      "Blocks.WOOL#12",
+      "Blocks.WOOL#13",
+      "Blocks.WOOL#14",
+      "Blocks.WOOL#15"
+    ],
+    "BLOCKS:mod:stained_glass_pane": [
+      "Blocks.STAINED_GLASS_PANE#0",
+      "Blocks.STAINED_GLASS_PANE#1",
+      "Blocks.STAINED_GLASS_PANE#2",
+      "Blocks.STAINED_GLASS_PANE#3",
+      "Blocks.STAINED_GLASS_PANE#4",
+      "Blocks.STAINED_GLASS_PANE#5",
+      "Blocks.STAINED_GLASS_PANE#6",
+      "Blocks.STAINED_GLASS_PANE#7",
+      "Blocks.STAINED_GLASS_PANE#8",
+      "Blocks.STAINED_GLASS_PANE#9",
+      "Blocks.STAINED_GLASS_PANE#10",
+      "Blocks.STAINED_GLASS_PANE#11",
+      "Blocks.STAINED_GLASS_PANE#12",
+      "Blocks.STAINED_GLASS_PANE#13",
+      "Blocks.STAINED_GLASS_PANE#14",
+      "Blocks.STAINED_GLASS_PANE#15"
+    ],
+    "BLOCKS:mod:concrete_block": [
+      "Blocks.CONCRETE#0",
+      "Blocks.CONCRETE#1",
+      "Blocks.CONCRETE#2",
+      "Blocks.CONCRETE#3",
+      "Blocks.CONCRETE#4",
+      "Blocks.CONCRETE#5",
+      "Blocks.CONCRETE#6",
+      "Blocks.CONCRETE#7",
+      "Blocks.CONCRETE#8",
+      "Blocks.CONCRETE#9",
+      "Blocks.CONCRETE#10",
+      "Blocks.CONCRETE#11",
+      "Blocks.CONCRETE#12",
+      "Blocks.CONCRETE#13",
+      "Blocks.CONCRETE#14",
+      "Blocks.CONCRETE#15"
+    ],
+    "BLOCKS:mod:stained_glass_block": [
+      "Blocks.STAINED_GLASS#0",
+      "Blocks.STAINED_GLASS#1",
+      "Blocks.STAINED_GLASS#2",
+      "Blocks.STAINED_GLASS#3",
+      "Blocks.STAINED_GLASS#4",
+      "Blocks.STAINED_GLASS#5",
+      "Blocks.STAINED_GLASS#6",
+      "Blocks.STAINED_GLASS#7",
+      "Blocks.STAINED_GLASS#8",
+      "Blocks.STAINED_GLASS#9",
+      "Blocks.STAINED_GLASS#10",
+      "Blocks.STAINED_GLASS#11",
+      "Blocks.STAINED_GLASS#12",
+      "Blocks.STAINED_GLASS#13",
+      "Blocks.STAINED_GLASS#14",
+      "Blocks.STAINED_GLASS#15"
+    ],
+    "BLOCKS:mod:terracotta_block": [
+      "Blocks.STAINED_HARDENED_CLAY#0",
+      "Blocks.STAINED_HARDENED_CLAY#1",
+      "Blocks.STAINED_HARDENED_CLAY#2",
+      "Blocks.STAINED_HARDENED_CLAY#3",
+      "Blocks.STAINED_HARDENED_CLAY#4",
+      "Blocks.STAINED_HARDENED_CLAY#5",
+      "Blocks.STAINED_HARDENED_CLAY#6",
+      "Blocks.STAINED_HARDENED_CLAY#7",
+      "Blocks.STAINED_HARDENED_CLAY#8",
+      "Blocks.STAINED_HARDENED_CLAY#9",
+      "Blocks.STAINED_HARDENED_CLAY#10",
+      "Blocks.STAINED_HARDENED_CLAY#11",
+      "Blocks.STAINED_HARDENED_CLAY#12",
+      "Blocks.STAINED_HARDENED_CLAY#13",
+      "Blocks.STAINED_HARDENED_CLAY#14",
+      "Blocks.STAINED_HARDENED_CLAY#15"
+    ],
+    "BLOCKS:mod:paintable": [
+      "TAG:mod:double_sided",
+      "TAG:mod:single_sided"
+    ],
+    "BLOCKS:mod:single_sided": [
+      "TAG:mod:wool_block",
+      "TAG:mod:stained_glass_pane",
+      "TAG:mod:concrete_block",
+      "TAG:mod:stained_glass_block",
+      "TAG:mod:terracotta_block",
+      "TAG:mod:bed",
+      "TAG:mod:shulker",
+      "TAG:mod:candle",
+      "TAG:mod:glazed_terracotta",
+      "TAG:mod:carpet",
+      "TAG:mod:concrete_powder"
+    ],
+    "BLOCKS:mod:bed": [
+      "Blocks.BED",
+      "Blocks.ORANGE_BED",
+      "Blocks.MAGENTA_BED",
+      "Blocks.LIGHT_BLUE_BED",
+      "Blocks.YELLOW_BED",
+      "Blocks.LIME_BED",
+      "Blocks.PINK_BED",
+      "Blocks.GRAY_BED",
+      "Blocks.LIGHT_GRAY_BED",
+      "Blocks.CYAN_BED",
+      "Blocks.PURPLE_BED",
+      "Blocks.BLUE_BED",
+      "Blocks.BROWN_BED",
+      "Blocks.GREEN_BED",
+      "Blocks.RED_BED",
+      "Blocks.BLACK_BED"
+    ],
+    "BLOCKS:mod:shulker": [
+      "Blocks.WHITE_SHULKER_BOX",
+      "Blocks.ORANGE_SHULKER_BOX",
+      "Blocks.MAGENTA_SHULKER_BOX",
+      "Blocks.LIGHT_BLUE_SHULKER_BOX",
+      "Blocks.YELLOW_SHULKER_BOX",
+      "Blocks.LIME_SHULKER_BOX",
+      "Blocks.PINK_SHULKER_BOX",
+      "Blocks.GRAY_SHULKER_BOX",
+      "Blocks.SILVER_SHULKER_BOX",
+      "Blocks.CYAN_SHULKER_BOX",
+      "Blocks.PURPLE_SHULKER_BOX",
+      "Blocks.BLUE_SHULKER_BOX",
+      "Blocks.BROWN_SHULKER_BOX",
+      "Blocks.GREEN_SHULKER_BOX",
+      "Blocks.RED_SHULKER_BOX",
+      "Blocks.BLACK_SHULKER_BOX"
+    ],
+    "BLOCKS:mod:candle": [
+      "Blocks.CANDLE#1",
+      "Blocks.CANDLE#2",
+      "Blocks.CANDLE#3",
+      "Blocks.CANDLE#4",
+      "Blocks.CANDLE#5",
+      "Blocks.CANDLE#6",
+      "Blocks.CANDLE#7",
+      "Blocks.CANDLE#8",
+      "Blocks.CANDLE#9",
+      "Blocks.CANDLE#10",
+      "Blocks.CANDLE#11",
+      "Blocks.CANDLE#12",
+      "Blocks.CANDLE#13",
+      "Blocks.CANDLE#14",
+      "Blocks.CANDLE#15",
+      "Blocks.CANDLE#16"
+    ],
+    "BLOCKS:mod:carpet": [
+      "Blocks.CARPET#0",
+      "Blocks.CARPET#1",
+      "Blocks.CARPET#2",
+      "Blocks.CARPET#3",
+      "Blocks.CARPET#4",
+      "Blocks.CARPET#5",
+      "Blocks.CARPET#6",
+      "Blocks.CARPET#7",
+      "Blocks.CARPET#8",
+      "Blocks.CARPET#9",
+      "Blocks.CARPET#10",
+      "Blocks.CARPET#11",
+      "Blocks.CARPET#12",
+      "Blocks.CARPET#13",
+      "Blocks.CARPET#14",
+      "Blocks.CARPET#15"
+    ],
+    "BLOCKS:mod:glazed_terracotta": [
+      "Blocks.WHITE_GLAZED_TERRACOTTA",
+      "Blocks.ORANGE_GLAZED_TERRACOTTA",
+      "Blocks.MAGENTA_GLAZED_TERRACOTTA",
+      "Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA",
+      "Blocks.YELLOW_GLAZED_TERRACOTTA",
+      "Blocks.LIME_GLAZED_TERRACOTTA",
+      "Blocks.PINK_GLAZED_TERRACOTTA",
+      "Blocks.GRAY_GLAZED_TERRACOTTA",
+      "Blocks.SILVER_GLAZED_TERRACOTTA",
+      "Blocks.CYAN_GLAZED_TERRACOTTA",
+      "Blocks.PURPLE_GLAZED_TERRACOTTA",
+      "Blocks.BLUE_GLAZED_TERRACOTTA",
+      "Blocks.BROWN_GLAZED_TERRACOTTA",
+      "Blocks.GREEN_GLAZED_TERRACOTTA",
+      "Blocks.RED_GLAZED_TERRACOTTA",
+      "Blocks.BLACK_GLAZED_TERRACOTTA"
+    ],
+    "BLOCKS:mod:concrete_powder": [
+      "Blocks.CONCRETE_POWDER#0",
+      "Blocks.CONCRETE_POWDER#1",
+      "Blocks.CONCRETE_POWDER#2",
+      "Blocks.CONCRETE_POWDER#3",
+      "Blocks.CONCRETE_POWDER#4",
+      "Blocks.CONCRETE_POWDER#5",
+      "Blocks.CONCRETE_POWDER#6",
+      "Blocks.CONCRETE_POWDER#7",
+      "Blocks.CONCRETE_POWDER#8",
+      "Blocks.CONCRETE_POWDER#9",
+      "Blocks.CONCRETE_POWDER#10",
+      "Blocks.CONCRETE_POWDER#11",
+      "Blocks.CONCRETE_POWDER#12",
+      "Blocks.CONCRETE_POWDER#13",
+      "Blocks.CONCRETE_POWDER#14",
+      "Blocks.CONCRETE_POWDER#15"
+    ]
+  },
+  "tab_element_order": {
+    "CUSTOM:PaintableBlocksTab": [
+      "PaintRoller",
+      "GoldenPaintRoller",
+      "WoolPanels",
+      "ConcretePanels",
+      "WoolPaneledOakPlanks",
+      "WoolPaneledSprucePlanks",
+      "WoolPaneledBirchPlanks",
+      "WoolPaneledJunglePlanks",
+      "WoolPaneledAcaciaPlanks",
+      "WoolPaneledDarkOakPlanks",
+      "WoolPaneledMangrovePlanks",
+      "WoolPaneledCherryPlanks",
+      "WoolPaneledPaleOakPlanks",
+      "WoolPaneledBambooPlanks",
+      "WoolPaneledCrimsonPlanks",
+      "WoolPaneledWarpedPlanks",
+      "ConcretePaneledSmoothQuartz",
+      "ConcretePaneledPolishedDiorite",
+      "ConcretePaneledSmoothStone",
+      "ConcretePaneledPolishedAndesite",
+      "ConcretePaneledPolishedTuff",
+      "ConcretePaneledPolishedDeepslate",
+      "ConcretePaneledPolishedBlackstone"
+    ]
+  },
+  "language_map": {
+    "en_us": {
+      "item.paintable_blocks.paint_roller.description_0": "Used alongside a dye on your other hand",
+      "item.paintable_blocks.paint_roller": "Paint Roller",
+      "item_group.paintable_blocks.paintable_blocks_tab": "Paintable Blocks",
+      "item.paintable_blocks.wool_paneled_oak_planks": "Wool Paneled Oak Planks",
+      "block.paintable_blocks.wool_paneled_oak_planks.description_0": "Paint Roller needed",
+      "block.paintable_blocks.wool_paneled_spruce_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_spruce_planks": "Wool Paneled Spruce Planks",
+      "block.paintable_blocks.wool_paneled_birch_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_birch_planks": "Wool Paneled Birch Planks",
+      "item.paintable_blocks.wool_paneled_jungle_planks": "Wool Paneled Jungle Planks",
+      "block.paintable_blocks.wool_paneled_jungle_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_acacia_planks": "Wool Paneled Acacia Planks",
+      "block.paintable_blocks.wool_paneled_acacia_planks.description_0": "Paint Roller needed",
+      "block.paintable_blocks.wool_paneled_dark_oak_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_dark_oak_planks": "Wool Paneled Dark Oak Planks",
+      "block.paintable_blocks.wool_paneled_mangrove_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_mangrove_planks": "Wool Paneled Mangrove Planks",
+      "item.paintable_blocks.wool_paneled_cherry_planks": "Wool Paneled Cherry Planks",
+      "block.paintable_blocks.wool_paneled_cherry_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_pale_oak_planks": "Wool Paneled Pale Oak Planks",
+      "block.paintable_blocks.wool_paneled_pale_oak_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_bamboo_planks": "Wool Paneled Bamboo Planks",
+      "block.paintable_blocks.wool_paneled_bamboo_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_crimson_planks": "Wool Paneled Crimson Planks",
+      "block.paintable_blocks.wool_paneled_crimson_planks.description_0": "Paint Roller needed",
+      "block.paintable_blocks.wool_paneled_warped_planks.description_0": "Paint Roller needed",
+      "item.paintable_blocks.wool_paneled_warped_planks": "Wool Paneled Warped Planks",
+      "block.paintable_blocks.concrete_paneled_smooth_quartz.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_smooth_quartz": "Concrete Paneled Smooth Quartz",
+      "block.paintable_blocks.concrete_paneled_polished_diorite.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_polished_diorite": "Concrete Paneled Polished Diorite",
+      "block.paintable_blocks.concrete_paneled_smooth_stone.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_smooth_stone": "Concrete Paneled Smooth Stone",
+      "block.paintable_blocks.concrete_paneled_polished_andesite.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_polished_andesite": "Concrete Paneled Polished Andesite",
+      "block.paintable_blocks.concrete_paneled_polished_tuff.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_polished_tuff": "Concrete Paneled Polished Tuff",
+      "block.paintable_blocks.concrete_paneled_polished_deepslate.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_polished_deepslate": "Concrete Paneled Polished Deepslate",
+      "block.paintable_blocks.concrete_paneled_polished_blackstone.description_0": "Paint Roller needed",
+      "item.paintable_blocks.concrete_paneled_polished_blackstone": "Concrete Paneled Polished Blackstone",
+      "item.paintable_blocks.wool_panels": "Wool Panels",
+      "item.paintable_blocks.concrete_panels": "Concrete Panels",
+      "item.paintable_blocks.golden_paint_roller.description_0": "Used alongside a dye on your other hand",
+      "item.paintable_blocks.golden_paint_roller": "Golden Paint Roller",
+      "block.paintable_blocks.paintable_block_base.description_0": "Can be painted with a Paint Roller and any dye",
+      "item.paintable_blocks.paintable_block_base": "Paintable Block Base"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/resources/pack.mcmeta",
+      "src/main/resources/META-INF/neoforge.mods.toml",
+      "src/main/resources/paintable_blocks.mixins.json",
+      "src/main/java/paintable_blocks/init/PaintableBlocksModTabs.java",
+      "src/main/java/paintable_blocks/PaintableBlocksMod.java",
+      "src/main/java/paintable_blocks/init/PaintableBlocksModBlocks.java",
+      "src/main/java/paintable_blocks/init/PaintableBlocksModItems.java"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "paintable_blocks",
+    "modName": "Paintable Blocks",
+    "version": "1.0.0",
+    "description": "Adds a Paint Roller and double-sided paintable blocks.",
+    "author": "Wenbebis",
+    "websiteURL": "https://mcreator.net",
+    "license": "GNU General Public License version 3 (GPLv3)",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "paintable_blocks"
+  },
+  "mcreatorVersion": 202500228610
+}

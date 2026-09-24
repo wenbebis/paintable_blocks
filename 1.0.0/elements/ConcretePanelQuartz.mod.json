@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "paintableconcrete",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ConcretePanels"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#0"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#3"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ConcretePanels"
+      },
+      {
+        "value": "Blocks.QUARTZ_BLOCK#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ConcretePaneledSmoothQuartz"
+    },
+    "name": "concrete_panel_quartz",
+    "namespace": "mod"
+  }
+}

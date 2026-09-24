@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:PaintRoller"
+      },
+      {
+        "value": "TAG:paintable_blocks:concrete_block"
+      },
+      {
+        "value": "Blocks.CONCRETE_POWDER#0"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CONCRETE#0"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ConcretePanels"
+    },
+    "name": "concrete_panel",
+    "namespace": "mod"
+  }
+}

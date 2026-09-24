@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "paintableconcrete",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ConcretePanels"
+      },
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE"
+      },
+      {
+        "value": "Blocks.BLACKSTONE"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ConcretePanels"
+      },
+      {
+        "value": "Blocks.POLISHED_BLACKSTONE"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ConcretePaneledPolishedBlackstone"
+    },
+    "name": "concrete_panel_blackstone",
+    "namespace": "mod"
+  }
+}

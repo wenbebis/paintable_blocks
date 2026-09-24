@@ -1,0 +1,59 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "paintableconcrete",
+    "unlockingItems": [
+      {
+        "value": "CUSTOM:ConcretePanels"
+      },
+      {
+        "value": "Blocks.TUFF"
+      },
+      {
+        "value": "Blocks.POLISHED_TUFF"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": true,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:ConcretePanels"
+      },
+      {
+        "value": "Blocks.POLISHED_TUFF"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ConcretePaneledPolishedTuff"
+    },
+    "name": "concrete_panel_tuff",
+    "namespace": "mod"
+  }
+}

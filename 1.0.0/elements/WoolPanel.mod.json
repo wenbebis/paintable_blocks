@@ -1,0 +1,56 @@
+{
+  "_fv": 79,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 16,
+    "group": "",
+    "unlockingItems": [
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "CUSTOM:PaintRoller"
+      }
+    ],
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "BUILDING",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.WOOL"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:WoolPanels"
+    },
+    "name": "wool_panel",
+    "namespace": "mod"
+  }
+}

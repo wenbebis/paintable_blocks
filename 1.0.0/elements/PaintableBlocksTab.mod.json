@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Paintable Blocks",
+    "icon": {
+      "value": "CUSTOM:PaintRoller"
+    },
+    "showSearch": false
+  }
+}
